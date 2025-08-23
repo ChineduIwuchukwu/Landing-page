@@ -45,6 +45,7 @@ header {
   justify-content: space-between;
   list-style: none;
   cursor: pointer;
+  width: 300px;
 }
 
 ul > li {
@@ -197,7 +198,7 @@ footer > h5 {
   padding-bottom: 1rem;
 }
 
-@media (max-width: 680px) {
+@media screen and (max-width: 680px) {
   .head {
     display: flex;
     flex-direction: column;
@@ -240,5 +241,13 @@ footer > h5 {
   .article2,
   .article3 {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img2 > img,
+  .img3 > img {
+    width: 180px;
+    object-fit: cover;
   }
 }
