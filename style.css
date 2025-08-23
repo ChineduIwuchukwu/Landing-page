@@ -64,7 +64,7 @@ ul > li {
 .article-section {
   display: flex;
   justify-content: space-between;
-  padding: 0 100px;
+  margin: 0 100px;
 }
 
 .mainarticle {
